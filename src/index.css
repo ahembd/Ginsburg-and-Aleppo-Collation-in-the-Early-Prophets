@@ -1,0 +1,45 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    background-color: #fcfbf8;
+    color: #1c1917;
+    font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+}
+
+.font-hebrew {
+  font-family: 'Frank Ruhl Libre', 'Cardo', 'Times New Roman', serif;
+  font-feature-settings: "mark" 1, "mkmk" 1, "kern" 1;
+  text-rendering: optimizeLegibility;
+  direction: rtl;
+}
+
+.font-editorial {
+  font-family: 'Cinzel', 'Playfair Display', Georgia, serif;
+}
+
+.font-serif-prose {
+  font-family: 'Cardo', 'Source Serif 4', Georgia, serif;
+}
+
+/* Custom scrollbars for scholarly apparatus */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f5f2eb;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #d6cebe;
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #b8ad99;
+}

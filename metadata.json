@@ -1,0 +1,6 @@
+{
+  "name": "Masoretic Collation: Ginsburg vs Aleppo Codex",
+  "description": "Scholarly collation and discrepancy analysis tool comparing the Hebrew Bible text of C.D. Ginsburg in the Early Prophets to the Aleppo Codex (Keter Aram Tzova) across vocalization, cantillation, meteg, and masoretic accents.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
